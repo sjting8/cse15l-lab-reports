@@ -16,9 +16,18 @@ Now you are ready to remotely connect.
 * Open a terminal in VS code and type the following: **ssh cs15lwi23zz@ieng6.ucsd.edu** with the zz replaced by the letters in your course-specific account.
 * It will then ask if you want to continue connecting. Enter yes.
 * It will then ask for your password. Enter your password. *Note that the characters you type will not show up on your screen.*
+* Your terminal should look something like this:
+![Image](Remotely Connect.png)
 
+Now your terminal is connected to a computer in the CSE basement, and any commands you run will run on that computer! We call your computer the client and the computer in the basement the server based on how you are connected.
 
 ## Trying Some Commands
 
+You are now ready to run some commands.
+
+* Try running the commands cd, ls, pwd, mkdir, and cp a few times in different ways, both on your computer, and on the remote computer after ssh-ing (use the terminal in VScode).
+* *To log out of the remote server in your terminal, you can enter exit.*
+* Your terminal may look something like this:
+![Image](Test Commands.png)
 
 Congradulations! You have set up your course-specific account.
