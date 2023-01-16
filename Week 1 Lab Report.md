@@ -16,7 +16,7 @@ Now you are ready to remotely connect.
 
 * Open a terminal in VS code and type the following: **ssh cs15lwi23zz@ieng6.ucsd.edu** with the zz replaced by the letters in your course-specific account.
 * It will then ask if you want to continue connecting. Enter yes.
-* It will then ask for your password. Enter your password. *Note that the characters you type will not show up on your screen.*
+* It will then ask for your password. Enter your password. ***Note that the characters you type will not show up on your screen.***
 * Your terminal should look something like this:
 
 ![Image](Remotely Connect.png)
