@@ -7,6 +7,7 @@ Welcome to 15L! This is a tutorial on how to set up your course-specific account
 * The first thing you want to do is to set up Visual Studio Code or VScode.
 * Go to the *[Visual Studio Code Website](https://code.visualstudio.com/)* and then follow the steps to download and install it on your computer.
 * After it is installed, opening it should open a window that looks like this:
+
 ![Image](VScode initial screen.png)
 
 ## Remotely Connecting
@@ -17,6 +18,7 @@ Now you are ready to remotely connect.
 * It will then ask if you want to continue connecting. Enter yes.
 * It will then ask for your password. Enter your password. *Note that the characters you type will not show up on your screen.*
 * Your terminal should look something like this:
+
 ![Image](Remotely Connect.png)
 
 Now your terminal is connected to a computer in the CSE basement, and any commands you run will run on that computer! We call your computer the client and the computer in the basement the server based on how you are connected.
@@ -28,6 +30,7 @@ You are now ready to run some commands.
 * Try running different terminal commands like cd, ls, pwd, mkdir, and cp a few times in different ways, both on your computer, and on the remote computer after ssh-ing uisng the terminal in VScode.
 * *To log out of the remote server in your terminal, you can enter exit.*
 * Your terminal may look something like this:
+
 ![Image](Test Commands.png)
 
 Congradulations! You have set up your course-specific account.
