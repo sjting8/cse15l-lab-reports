@@ -2,9 +2,10 @@
 By: Sean Ting
 
 ## Part 1
-StringServer.java:
 
 ![Image](StringServerSnippet.png)
+
+The code above is StringServer.java
 
 **/add-message?s=Hello as path:**
 
