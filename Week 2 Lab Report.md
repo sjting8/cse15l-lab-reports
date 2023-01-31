@@ -1,4 +1,4 @@
-# **Lab Report 1**
+# **Lab Report 2**
 By: Sean Ting
 
 ## Part 1
