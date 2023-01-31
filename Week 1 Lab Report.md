@@ -28,6 +28,11 @@ Now your terminal is connected to a computer in the CSE basement, and any comman
 You are now ready to run some commands.
 
 * Try running different terminal commands like cd, ls, pwd, mkdir, and cp a few times in different ways, both on your computer, and on the remote computer after ssh-ing using the terminal in VScode.
+* The cd command takes you into a folder or directory you input in the argument after.
+* The ls command lists all the files in the directory.
+* Pwd writes the full path name of your current directory starting from the root directory.
+* The mkdir command allows you to make directories from the terminal.
+* The cp command is used to make a copy of a file.
 * *To log out of the remote server in your terminal, you can enter exit.*
 * Your terminal may look something like this:
 
