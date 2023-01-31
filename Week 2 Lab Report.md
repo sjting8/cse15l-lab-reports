@@ -43,11 +43,11 @@ StringServer.java:
 **Failure-inducing input for buggy program:**
 
 ```
-public void testReverseInPlace() {
+  public void testReverseInPlace() {
     int[] input1 = { 5, 0, -1, 4 };
     ArrayExamples.reverseInPlace(input1);
     assertArrayEquals(new int[]{ 4, -1, 0, 5 }, input1);
-}
+  }
 ```
 
 **Symptom:**
@@ -61,11 +61,11 @@ The input1 array will be {4, -1, -1, 4} after the reverseInPlace method is calle
 **Input that does not fail:**
 
 ```
-public void testReverseInPlace() {
+  public void testReverseInPlace() {
     int[] input1 = { 3 };
     ArrayExamples.reverseInPlace(input1);
     assertArrayEquals(new int[]{ 3 }, input1);
-}
+  }
 ```
 
 This input does not fail because since there is only one value in the array, it replaces itself with itself and the final array is equivalent because it's the same one value.
