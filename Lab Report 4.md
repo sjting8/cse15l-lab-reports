@@ -40,7 +40,7 @@ This opens up the nano window
 
 This reads the ListExamples.java file.
 
-![Image](git ListExamplesRead.png)
+![Image](ListExamplesRead.png)
 
 Use arrow keys to find in the code and change the first occurrence of index1+=1; (the most bottom one) to index2+=1;
   
