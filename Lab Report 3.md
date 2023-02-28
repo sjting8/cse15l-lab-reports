@@ -19,6 +19,7 @@ written_2/travel_guides/berlitz2/Barcelona-WhereToGo.txt:Carrer dels Escudellers
 ```
    
 Recursively reads all files under each directory and returns where the command line pattern is found. In this case, it searched for the string pattern in written_2.
+This option may be useful if the user wants to search for a string pattern through multiple files throughout different paths in a directory or find a file with the string pattern in a directory.
 
 **-c option**
 
@@ -37,6 +38,7 @@ Recursively reads all files under each directory and returns where the command l
 ```
 
 Prints only a count of the lines that match a pattern.
+This option may be useful to check the existence of a string after redirecting a stdout to a file. (If "tests failed:" returns 0 then they all passed).
 
 **-n option**
 
@@ -55,6 +57,7 @@ Prints only a count of the lines that match a pattern.
 ```
 
 Displays the matched lines and their line numbers.
+This option may be useful if the user needs to find exactly where in a file a line appears. If the file is very big and they want to search for a specific section that contains a unique string pattern, this could be useful.
 
 **-A n option**
 
@@ -74,6 +77,7 @@ Barri GÒtic
 ```
 
 Prints searched line and n lines after the result. (1 line in these examples because of A1)
+Could be useful if the user wants to search for a method and they would input the method header and n lines to see the method.
 
 Sources (for all four command options):
 [grep window command](https://amalgjose.com/2021/08/08/pipe-grep-equivalent-command-in-windows/#:~:text=The%20syntax%20of%20grep%20command%20is%20given%20below.&text=Options%20Description%20%2Dc%20%3A%20This%20prints,lines%20and%20their%20line%20numbers.)
