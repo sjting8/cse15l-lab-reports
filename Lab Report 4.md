@@ -20,7 +20,7 @@ Run the tests, demonstrating that they fail
 *cd into lab7*
 
 Compile and run Junit Tests
-Keys pressed: <up><up><up><up><up><enter>, <up><up><up><up><up><enter>
+*Keys pressed: <up><up><up><up><up><enter>, <up><up><up><up><up><enter>*
 
 The javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java command was 5 commands up in the search history, so I used up arrow to access it and enter to reinput it. Then the java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore command was 5 up in the history, so I accessed and ran it in the same way.
   
