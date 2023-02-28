@@ -46,9 +46,7 @@ Use arrow keys to find in the code and change the first occurrence of index1+=1;
   
 `<Ctrl-O ListExamples.java>` and then `<y>` to overwrite. This replaces the old file with the new edited one.
   
-`<Ctrl-X>`
-
-To exit nano.
+`<Ctrl-X>` to exit nano.
  
 ## Step 5
 Run the tests, demonstrating that they now succeed
