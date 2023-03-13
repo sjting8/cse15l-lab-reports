@@ -3,7 +3,7 @@ By: Sean Ting
 
 ## The Find Command
 
-** option**
+**/v option**
 
 ```
   grep -r "Carrer dels Escudellers" written_2
@@ -14,7 +14,7 @@ written_2/travel_guides/berlitz2/Barcelona-WhereToGo.txt:Carrer dels Escudellers
 Recursively reads all files under each directory and returns where the command line pattern is found. In this case, it searched for the string pattern in written_2.
 This option may be useful if the user wants to search for a string pattern through multiple files throughout different paths in a directory or find a file with the string pattern in a directory.
 
-**-c option**
+**/c option**
 
 *cd into written_2/travel_guides/berlitz2*
 
@@ -33,7 +33,7 @@ This option may be useful if the user wants to search for a string pattern throu
 Prints only a count of the lines that match a pattern.
 This option may be useful to check the existence of a string after redirecting a stdout to a file. (If "tests failed:" returns 0 then they all passed).
 
-**-n option**
+**/n option**
 
 ```
   grep -n "Lucayanas" Bahamas-History.txt
@@ -52,7 +52,7 @@ This option may be useful to check the existence of a string after redirecting a
 Displays the matched lines and their line numbers.
 This option may be useful if the user needs to find exactly where in a file a line appears. If the file is very big and they want to search for a specific section that contains a unique string pattern, this could be useful.
 
-**-A n option**
+**/i option**
 
 ```
   grep -A1 "Lucayans" Bahamas-History.txt
