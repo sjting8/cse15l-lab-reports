@@ -7,7 +7,7 @@ Log into ieng6
 ![Image](LogIn.png)
 
 **Keys Pressed:** ```<up><enter>``` \
-ssh command is used to log into a remote server (ieng6). ssh cs15lwi23aum@ieng6.ucsd.edu was the most recent command in the terminal so the up arrow copied it into the current command line and enter entered it into the terminal. This did not prompt me for a password since I am automatically logged in.
+ssh command is used to log into a remote server (ieng6). ssh cs15lwi23aum@ieng6.ucsd.edu was the most recent command in the terminal so the up arrow copied it into the current command line and enter entered it into the terminal. This did not prompt me for a password since I set it up to automatically logged me in.
 
 ## Step 2
 Clone your fork of the repository from your Github account
