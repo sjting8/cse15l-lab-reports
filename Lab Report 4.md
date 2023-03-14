@@ -29,7 +29,7 @@ Compile and run Junit Tests
 
 **Keys pressed:** ```<up><up><up><up><up><enter>, <up><up><up><up><up><enter>```\
 
-The ```javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java``` command was 5 commands up in the search history, so I used up arrow to access it and enter to reinput it. Then the ```java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore``` command was 5 up in the history, so I accessed and ran it in the same way.
+The ```javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java``` command was 5 commands up in the search history, so I used up arrow to access it and enter to reinput it. Then the ```java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore ListExamplesTests``` command was 5 up in the history, so I accessed and ran it in the same way.
   
 The first javac command compiles files with junit and the second java command runs the junit tests.
   
@@ -67,3 +67,5 @@ Should now show that all the test pasts.
 Commit and push the resulting change to your Github account (you can pick any commit message!)
 
 ![Image](CommitPush.png)
+**Keys Pressed:** ```git commit -a Bug Fixed <esc> :wq''' '''git push```
+I used the command "git commit -a" to commit all changes made to the directory. "Bug Fixed" was the message to the commit and pressed escape and typed ":wq" to save the changes. Finally, I used the command '''git push''' to push all changes to the repository. 
