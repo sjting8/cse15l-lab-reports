@@ -135,7 +135,6 @@ This can be useful if there are multiple file types in the working directory and
 ```
 ```
       [cs15lwi23aum@ieng6-206]:written_2:40$ find -maxdepth 2 -mmin +20
-      .
       ./non-fiction
       ./non-fiction/OUP
       ./travel_guides
