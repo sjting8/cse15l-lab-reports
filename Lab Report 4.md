@@ -72,4 +72,4 @@ Commit and push the resulting change to your Github account (you can pick any co
 **Keys Pressed:** ```git commit -a Bug Fixed <esc> :wq```
 ```git push```
 
-I used the command "git commit -a" to commit all changes made to the directory. "Bug Fixed" was the message to the commit and pressed escape and typed ":wq" to save the changes. Finally, I used the command '''git push''' to push all changes to the repository. 
+I used the command "git commit -a" to commit all changes made to the directory. "Bug Fixed" was the message to the commit and pressed escape and typed ":wq" to save the changes. Finally, I used the command ```git push``` to push all changes to the repository. 
