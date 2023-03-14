@@ -53,7 +53,9 @@ Use arrow keys to find in the code and change the first occurrence of index1+=1;
 ## Step 5
 Run the tests, demonstrating that they now succeed
 
-Keys Pressed: `<up><up><enter>`
+![Image](git pass.png)
+
+**Keys Pressed:** `<up><up><enter>`
 
 Accesses and runs the JUnit test command.
 
