@@ -6,7 +6,7 @@ Log into ieng6
 
 ![Image](LogIn.png)
 
-**Keys Pressed:** ```<up><enter>``` \
+**Keys Pressed:** ```<up><enter>```
 ssh command is used to log into a remote server (ieng6). ```ssh cs15lwi23aum@ieng6.ucsd.edu``` was the most recent command in the terminal so the up arrow copied it into the current command line and enter entered it into the terminal. This did not prompt me for a password since I set it up to automatically logged me in.
 
 ## Step 2
@@ -14,20 +14,20 @@ Clone your fork of the repository from your Github account
 
 ![Image](git clone lab7.png)
 
-**Keys Pressed:** ```git clone <ctrl-V><enter>``` \
+**Keys Pressed:** ```git clone <ctrl-V><enter>```
 I copied the SSH key to clone the repository from the Github website to my clipboard. I then went to my terminal, typed "git clone" and then pressed ctrl-V to paste the SSH key of the forked repository and pressed enter to complete the cloning the repository.
 
 ## Step 3
 Run the tests, demonstrating that they fail
 ![Image](git clone lab7.png)
 
-**Keys Pressed:** ```cd lab7 <enter>``` \
+**Keys Pressed:** ```cd lab7 <enter>```
 
 Compile and run Junit Tests
 ![Image](TestFail.png)
 
 
-**Keys pressed:** ```<up><up><up><up><up><enter>, <up><up><up><up><up><enter>```\
+**Keys pressed:** ```<up><up><up><up><up><enter>, <up><up><up><up><up><enter>```
 
 The ```javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java``` command was 5 commands up in the search history, so I used up arrow to access it and enter to reinput it. Then the ```java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore ListExamplesTests``` command was 5 up in the history, so I accessed and ran it in the same way.
   
