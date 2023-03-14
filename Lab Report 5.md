@@ -1,18 +1,81 @@
 # **Lab Report 5**
 By: Sean Ting
 
+I had a lot of fun researching different options for the grep command in Lab Report 3 so I decided I want to do the same for the find command for this lab report since the find command seems very useful.
+
 ## The Find Command
 
-**/v option**
+**-type option**
 
 ```
-  grep -r "Carrer dels Escudellers" written_2
-  
-written_2/travel_guides/berlitz2/Barcelona-WhereToGo.txt:Carrer dels Escudellers, a busy pedestrian street on the other side of the Rambla, is the gateway to a district of cabarets, bars, flamenco shows, and restaurants, and the delights of the Gothic Quarter. Nearer the port, a passage leads to the Museu de Cera (Wax Museum), a tourist trap with a collection of some three hundred realistic wax effigies. The Rambla ends at the broad open space facing the Monument à Colom, a statue honoring the discoverer Christopher Columbus (Colom in Catalan) that can be climbed for good views of the port. Poor Columbus is supposed to be indicating the way to the riches of the New World, but he’s actually pointing at Mallorca or perhaps North Africa. Just beyond the statue is Barcelona’s newly revitalized waterfront.
+    [cs15lwi23aum@ieng6-206]:written_2:28$ find -mindepth 4 -type f
+    ./non-fiction/OUP/Abernathy/ch1.txt
+    ./non-fiction/OUP/Abernathy/ch14.txt
+    ./non-fiction/OUP/Abernathy/ch15.txt
+    ./non-fiction/OUP/Abernathy/ch2.txt
+    ./non-fiction/OUP/Abernathy/ch3.txt
+    ./non-fiction/OUP/Abernathy/ch6.txt
+    ./non-fiction/OUP/Abernathy/ch7.txt
+    ./non-fiction/OUP/Abernathy/ch8.txt
+    ./non-fiction/OUP/Abernathy/ch9.txt
+    ./non-fiction/OUP/Berk/CH4.txt
+    ./non-fiction/OUP/Berk/ch1.txt
+    ./non-fiction/OUP/Berk/ch2.txt
+    ./non-fiction/OUP/Berk/ch7.txt
+    ./non-fiction/OUP/Castro/chA.txt
+    ./non-fiction/OUP/Castro/chB.txt
+    ./non-fiction/OUP/Castro/chC.txt
+    ./non-fiction/OUP/Castro/chL.txt
+    ./non-fiction/OUP/Castro/chM.txt
+    ./non-fiction/OUP/Castro/chN.txt
+    ./non-fiction/OUP/Castro/chO.txt
+    ./non-fiction/OUP/Castro/chP.txt
+    ./non-fiction/OUP/Castro/chQ.txt
+    ./non-fiction/OUP/Castro/chR.txt
+    ./non-fiction/OUP/Castro/chV.txt
+    ./non-fiction/OUP/Castro/chW.txt
+    ./non-fiction/OUP/Castro/chY.txt
+    ./non-fiction/OUP/Castro/chZ.txt
+    ./non-fiction/OUP/Fletcher/ch1.txt
+    ./non-fiction/OUP/Fletcher/ch10.txt
+    ./non-fiction/OUP/Fletcher/ch2.txt
+    ./non-fiction/OUP/Fletcher/ch5.txt
+    ./non-fiction/OUP/Fletcher/ch6.txt
+    ./non-fiction/OUP/Fletcher/ch9.txt
+    ./non-fiction/OUP/Kauffman/ch1.txt
+    ./non-fiction/OUP/Kauffman/ch10.txt
+    ./non-fiction/OUP/Kauffman/ch3.txt
+    ./non-fiction/OUP/Kauffman/ch4.txt
+    ./non-fiction/OUP/Kauffman/ch5.txt
+    ./non-fiction/OUP/Kauffman/ch6.txt
+    ./non-fiction/OUP/Kauffman/ch7.txt
+    ./non-fiction/OUP/Kauffman/ch8.txt
+    ./non-fiction/OUP/Kauffman/ch9.txt
+    ./non-fiction/OUP/Rybczynski/ch1.txt
+    ./non-fiction/OUP/Rybczynski/ch2.txt
+    ./non-fiction/OUP/Rybczynski/ch3.txt
 ```
-   
-Recursively reads all files under each directory and returns where the command line pattern is found. In this case, it searched for the string pattern in written_2.
-This option may be useful if the user wants to search for a string pattern through multiple files throughout different paths in a directory or find a file with the string pattern in a directory.
+```
+    [cs15lwi23aum@ieng6-206]:written_2:29$ find -type d
+    .
+    ./non-fiction
+    ./non-fiction/OUP
+    ./non-fiction/OUP/Abernathy
+    ./non-fiction/OUP/Berk
+    ./non-fiction/OUP/Castro
+    ./non-fiction/OUP/Fletcher
+    ./non-fiction/OUP/Kauffman
+    ./non-fiction/OUP/Rybczynski
+    ./travel_guides
+    ./travel_guides/berlitz1
+    ./travel_guides/berlitz2
+    ./travel_guides/emptyDirectory
+    ./lab5
+```
+The -type option allows the user to find a specific type of file with the given or current directory.
+For example, two that are used in the examples above are "f" for file and "d" for directory.
+This can be useful if there are multiple file types in the working directory and you want to look at all of one specific type of file.
+
 
 **/c option**
 
