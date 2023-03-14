@@ -24,6 +24,8 @@ Run the tests, demonstrating that they fail
 **Keys Pressed:** ```cd lab7 <enter>``` \
 
 Compile and run Junit Tests
+![Image](TestFail.png)
+
 
 **Keys pressed:** ```<up><up><up><up><up><enter>, <up><up><up><up><up><enter>```\
 
@@ -53,7 +55,7 @@ Use arrow keys to find in the code and change the first occurrence of index1+=1;
 ## Step 5
 Run the tests, demonstrating that they now succeed
 
-![Image](git pass.png)
+![Image](TestPass.png)
 
 **Keys Pressed:** `<up><up><enter>`
 
@@ -64,4 +66,4 @@ Should now show that all the test pasts.
 ## Step 6
 Commit and push the resulting change to your Github account (you can pick any commit message!)
 
-![Image](git add.png)
+![Image](CommitPush.png)
